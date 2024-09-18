@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+$font-weights: (
+    "regular": 400, 
+    "medium": 500, 
+    "bold": 700
+);
+
+@each $name, $value in $font-weights {
+    .f-#{$name} {
+        font-weight: #{$value};
+    }
+}
+
+$font-sizes: (
+    "small": 0.8rem,
+    "regular": 1rem,
+    "big":1.5rem,
+    "bigger": 2rem,
+
+);
+
+@each $name, $value in $font-sizes {
+    .f-#{$name} {
+        font-size: #{$value};
+    }
+};
+
+@mixin title-big {
+    font-size: 1.5rem;
+}

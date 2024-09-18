@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.f-regular {
+  font-weight: 400;
+}
+
+.f-medium {
+  font-weight: 500;
+}
+
+.f-bold {
+  font-weight: 700;
+}
+
+.f-small {
+  font-size: 0.8rem;
+}
+
+.f-regular {
+  font-size: 1rem;
+}
+
+.f-big {
+  font-size: 1.5rem;
+}
+
+.f-bigger {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
